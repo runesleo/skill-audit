@@ -1,4 +1,4 @@
-# Skill Audit Lite（`claude-skill-audit` 的只读 CLI 组件）
+# Skill Audit Lite（Skill Audit 的只读 CLI 组件）
 
 一个零依赖、只读、可离线运行的小工具：**每 30 天盘点 AI Skills，分清「已记录调用」「没有日志」「实际是否有价值」**。
 
