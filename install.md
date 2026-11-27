@@ -20,7 +20,7 @@ Expected for **synthetic** fixtures: 2 Skills, 3 recorded calls, Gemini marked `
 ## Guided Skill in Claude Code
 
 ```bash
-git clone https://github.com/runesleo/claude-skill-audit "$HOME/.claude"/skills/skill-audit
+git clone https://github.com/runesleo/skill-audit "$HOME/.claude"/skills/skill-audit
 ```
 
 Then ask Claude Code to run `/skill-audit`. If the directory already exists, review it before reinstalling; do not overwrite a local Skill. The guided audit must first establish actual paths and data provenance, then report inventory, observed usage, possible rule–execution gaps, conflicts and outdated instructions without changing installed Skills.

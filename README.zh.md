@@ -1,8 +1,10 @@
-# claude-skill-audit — AI Skill 技能树体检
+# Skill Audit — AI Skill 技能树体检
 
 ![Python 3.9+](https://img.shields.io/badge/Python-3.9%2B-blue) ![MIT](https://img.shields.io/badge/License-MIT-green)
 
 [English](README.md) · 简体中文
+
+原 `claude-skill-audit` 仓库于 2026-11-27 更名。原本地 Skill 目录、Git 历史及 v0.0.1 Release 保持不变。
 
 不需要再装一个审计系统：把已有 Skill 的**清单、触发证据、规则要求和实际效果**定期对一遍。先找漏采与漏触发，再判断是否应该调整。
 
@@ -11,7 +13,7 @@
 ### 1. AI 引导的 Skill 体检（Claude Code）
 
 ```bash
-git clone https://github.com/runesleo/claude-skill-audit "$HOME/.claude"/skills/skill-audit
+git clone https://github.com/runesleo/skill-audit "$HOME/.claude"/skills/skill-audit
 ```
 
 在 Claude Code 中触发 `/skill-audit`。仓库根目录的 [SKILL.md](SKILL.md) 依次检查：

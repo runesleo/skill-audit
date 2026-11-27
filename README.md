@@ -1,8 +1,10 @@
-# claude-skill-audit
+# Skill Audit
 
 ![Python 3.9+](https://img.shields.io/badge/Python-3.9%2B-blue) ![License MIT](https://img.shields.io/badge/License-MIT-green)
 
 English · [简体中文](README.zh.md)
+
+Formerly the `claude-skill-audit` repository; renamed on 2026-11-27. Existing local Skill directories and the v0.0.1 release are unchanged.
 
 > A read-only health check for AI Skills: what was **observed** in your logs, what might overlap, and which mandatory rules may not have been executed. Missing logs never prove non-usage.
 
@@ -39,7 +41,7 @@ The useful discovery is not a dramatic “dead Skill” count. It is whether **i
 **Claude Code:**
 
 ```bash
-git clone https://github.com/runesleo/claude-skill-audit "$HOME/.claude"/skills/skill-audit
+git clone https://github.com/runesleo/skill-audit "$HOME/.claude"/skills/skill-audit
 ```
 
 Then trigger: `/skill-audit` or "run a skill tree health check".
